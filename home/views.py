@@ -9,6 +9,9 @@ def index(request):
 def about(request):
     return render(request,"about.html")
 
+def address(request):
+    return render(request,"address.html")
+
 def suport(request):
     return render(request,"suport.html")
 
