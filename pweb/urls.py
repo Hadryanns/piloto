@@ -25,4 +25,7 @@ urlpatterns = [
     path('contact',views.contact,name='contact'),
     path('suport',views.suport,name='suport'),
     path('address',views.address,name='address'),
+    path('viewitem/<int:id>', views.viewitem,name='exibiritem'),
+    path('perfil/<str:user>',views.user,name='perfil'),
+    path('week/<int:weekday>',views.weekday,name='weekday'),
 ]
